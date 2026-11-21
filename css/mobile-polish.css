@@ -1,0 +1,4 @@
+/* phone hero polish */
+@media(max-width:900px){#hero{padding:90px 0 56px;min-height:auto}.ph{width:min(250px,64vw)}.ph::before{inset:12px 12px -12px -12px}.bd{left:auto;right:-12px;bottom:18px;padding:.6rem .9rem}.quote{text-align:center;border-left:0;border-top:1px solid rgba(176,141,87,.5);border-bottom:1px solid rgba(176,141,87,.5);padding:.9rem .5rem;max-width:440px;margin:0 auto 1.4rem}.hg{gap:2.4rem}.lab{margin-bottom:.9rem}.ttl{margin:1rem 0}}
+@media(max-width:640px){h1{font-size:clamp(2.3rem,12vw,3.4rem)}.btns{display:grid;grid-template-columns:1fr 1fr;gap:.7rem}.btns .b1{grid-column:1/-1}.btns .b{justify-content:center;padding:.95rem .8rem}.soc{margin-top:1.6rem;padding-top:1.3rem}.hp{font-size:.92rem}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.rv{opacity:1;transform:none}}

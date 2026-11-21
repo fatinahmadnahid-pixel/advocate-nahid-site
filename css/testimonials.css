@@ -1,0 +1,6 @@
+/* testimonials */
+.tg{display:grid;grid-template-columns:repeat(3,1fr);gap:1.3rem;margin-top:3rem}
+.tc{background:#fff;border:1px solid var(--line);padding:2rem 1.8rem;border-radius:6px;position:relative}
+.tc::before{content:"“";position:absolute;top:.2rem;right:1.2rem;font-family:var(--serif);font-size:5rem;color:var(--gold);opacity:.3;line-height:1}
+.stars{color:var(--gold);letter-spacing:3px;margin-bottom:.8rem}.tc p{font-size:.92rem;color:var(--mute);font-style:italic;margin-bottom:1.4rem}
+.who{display:flex;align-items:center;gap:.8rem}.av{width:44px;height:44px;border-radius:50%;background:var(--navy);color:var(--gold2);display:grid;place-items:center;font-weight:700;font-size:.8rem}.who b{display:block;font-family:var(--serif)}.who small{color:var(--mute);font-size:.74rem}

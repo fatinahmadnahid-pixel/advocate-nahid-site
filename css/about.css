@@ -1,0 +1,11 @@
+/* about */
+.ag{display:grid;grid-template-columns:.8fr 1.2fr;gap:clamp(2rem,6vw,5rem);align-items:center}
+.ap{position:relative}.ap img{width:100%;aspect-ratio:4/5;object-fit:cover;object-position:top center;border-radius:4px;filter:grayscale(15%) contrast(1.05);background:var(--paper2)}
+.qc{position:absolute;bottom:2rem;right:-1.5rem;background:#fff;border-radius:4px;padding:1.1rem 1.4rem;box-shadow:0 12px 40px rgba(10,22,48,.12);border:1px solid var(--line);min-width:200px}
+.qc small{display:block;font-size:.65rem;font-weight:600;letter-spacing:.15em;text-transform:uppercase;color:var(--gold);margin-bottom:.4rem}.qc b{display:block;font-family:var(--serif);font-size:1.05rem;font-weight:600;color:var(--ink)}.qc span{display:block;font-size:.75rem;color:var(--mute);margin-top:.15rem}
+.about p{color:var(--mute);margin-bottom:1rem}
+.chk{list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:.7rem 1.2rem;margin:1.5rem 0}
+.chk li{position:relative;padding-left:1.7rem;font-size:.9rem;font-weight:500}.chk li::before{content:"✓";position:absolute;left:0;top:0;color:var(--gold);font-weight:800}
+.vals{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;margin-top:1.8rem}
+.v{background:#fff;border:1px solid var(--line);border-top:3px solid var(--gold);padding:1.2rem;border-radius:4px}
+.v i{font-style:normal;font-size:1.5rem}.v b{display:block;font-family:var(--serif);font-size:1.05rem;margin:.3rem 0 .2rem}.v span{font-size:.8rem;color:var(--mute);line-height:1.5;display:block}

@@ -1,0 +1,2 @@
+addEventListener('error',function(e){var t=e.target;if(t.tagName!=='IMG')return;var l=(t.dataset.fb||'').split(',').filter(function(x){return x&&x.indexOf('.')>0});if(l.length){t.dataset.fb=l.slice(1).join(',');t.src=l[0]}else{t.style.visibility='hidden';t.parentNode.classList.add('miss')}},true);
+(function(){var i=new Image();i.onerror=function(){document.getElementById('fav').href='images/photo1.jpg'};i.src='images/photo1.png'})();

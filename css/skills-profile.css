@@ -1,0 +1,9 @@
+/* skills & profile */
+.skg{display:grid;grid-template-columns:1fr 1fr;gap:1.3rem;margin-top:3rem}
+.sk{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.1);border-left:3px solid var(--gold);padding:1.5rem 1.6rem;border-radius:4px;transition:.3s}.sk:hover{background:rgba(255,255,255,.08);transform:translateX(4px)}
+.sk h3{font-size:1.1rem;color:var(--gold2);margin-bottom:.4rem}.sk p{font-size:.88rem;color:rgba(255,255,255,.68)}
+.pg{display:grid;grid-template-columns:repeat(3,1fr);gap:1.3rem;margin-top:3rem}
+.pc{background:#fff;border:1px solid var(--line);border-top:4px solid var(--gold);border-radius:6px;padding:1.8rem 1.6rem}
+.pc h3{font-size:1.2rem;margin-bottom:1rem;padding-bottom:.8rem;border-bottom:1px solid var(--line)}
+.pc dl div{padding:.6rem 0;border-bottom:1px dashed var(--line)}.pc dl div:last-child{border:0}
+.pc dt{font-size:.68rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--gold)}.pc dd{font-size:.9rem;color:var(--ink)}

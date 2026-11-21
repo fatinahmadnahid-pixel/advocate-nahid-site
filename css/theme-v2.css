@@ -1,0 +1,12 @@
+/* v2 look */
+.b{border-radius:99px}.links .cta{border-radius:99px}
+.sc,.sk,.pc,.tc,.cc,.v,.hr,form,.ok,.st{border-radius:16px}
+.sc,.pc,.tc,.v{border:0;box-shadow:0 10px 34px rgba(22,24,29,.09)}.pc{border-top:0}.v{border-top:0}
+.sk{border-left:1px solid var(--line)!important;border-top:4px solid var(--gold)}
+.ph{order:-1;justify-self:start}
+.ph::before{inset:18px 18px -18px -18px;border:0;background:var(--gold);border-radius:20px;opacity:.9}
+.ph img{border-radius:20px;filter:none;position:relative}.bd{left:auto;right:-14px;bottom:26px;border-radius:99px}
+.ap img{border-radius:20px;filter:none}.qc{border-radius:14px}
+.hg{grid-template-columns:.85fr 1.15fr}.ag{grid-template-columns:1.2fr .8fr}.ag .ap{order:2}
+.tag::before{display:none}.tag{border-bottom:2px solid var(--gold);padding-bottom:.3rem}.c .tag::after{display:none}
+h1{font-size:clamp(2.6rem,6.4vw,5rem)}

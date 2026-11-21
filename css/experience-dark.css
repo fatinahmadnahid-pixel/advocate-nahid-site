@@ -1,0 +1,12 @@
+#experience .cr{border-color:rgba(255,255,255,.12)}
+#experience .cr h3{color:#fff}
+#experience .cd{color:var(--gold2)}
+#experience .cr p{color:rgba(255,255,255,.6)}
+#experience .ci{background:var(--gold);color:var(--navy)}
+#experience .tlh{color:rgba(255,255,255,.55)}
+#experience .ti span{color:rgba(255,255,255,.85)}
+#experience .ti::before{background:#1f2a3d}
+#experience .st div{background:rgba(255,255,255,.06)}
+#experience .st b{color:var(--gold2)}
+#experience .st span{color:rgba(255,255,255,.6)}
+#experience .st{border-color:rgba(255,255,255,.12);background:rgba(255,255,255,.12)}

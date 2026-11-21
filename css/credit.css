@@ -1,0 +1,7 @@
+/* Developer credit highlight (footer) */
+.dev{color:rgba(255,255,255,.65)}
+.dev a{color:#2dd4bf;font-weight:800;letter-spacing:.03em;border-bottom:1px solid rgba(45,212,191,.45);padding-bottom:1px;transition:color .25s,border-color .25s}
+footer .dev a:hover{color:#5eead4;border-bottom-color:#5eead4}
+html.day .dev{color:var(--mute)}
+html.day .dev a{color:#0f766e;border-bottom-color:rgba(15,118,110,.45)}
+html.day footer .dev a:hover{color:#115e59}

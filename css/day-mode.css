@@ -1,0 +1,25 @@
+/* day mode */
+.nr{display:flex;align-items:center;gap:.6rem}
+#mode{display:grid;place-items:center;width:42px;height:42px;border:1.5px solid rgba(255,255,255,.35);color:#fff;border-radius:50%;transition:.25s}#mode svg{width:19px;height:19px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+#mode:hover{border-color:var(--gold);color:var(--gold2)}
+html.day #nav.s{background:rgba(255,255,255,.96);box-shadow:0 2px 20px rgba(0,0,0,.1)}
+html.day .logo b,html.day .links a{color:var(--ink)}
+html.day .links a:hover,html.day .links a.on{color:#8a6420}
+html.day #bg i{background:var(--ink)}
+html.day #mode{border-color:rgba(0,0,0,.25);color:var(--ink)}html.day #mode:hover{border-color:var(--gold);color:#8a6420}
+html.day #dr{background:#fff}html.day #dr a{color:var(--ink)}html.day #dr .cta{color:#16181d}
+html.day #hero{background:radial-gradient(80% 70% at 15% 15%,#f2e2d2 0,transparent 60%),linear-gradient(160deg,#fff,#f4efe6);color:var(--ink)}
+html.day #hero::before{background:repeating-linear-gradient(90deg,transparent 0 119px,rgba(0,0,0,.04) 119px 120px)}
+html.day h1{color:var(--ink)}html.day h1 span,html.day .quote,html.day .lab,html.day .b3{color:#8a6420}html.day .b3:hover{color:#16181d}
+html.day .ttl,html.day .hp{color:var(--mute)}html.day .ttl strong{color:var(--ink)}
+html.day .b2{border-color:rgba(0,0,0,.25);color:var(--ink)}html.day .b2:hover{color:#8a6420;border-color:var(--gold)}
+html.day .soc{border-top-color:rgba(0,0,0,.1)}html.day .soc a{border-color:rgba(0,0,0,.2);color:var(--ink)}html.day .soc a:hover{color:#16181d}
+html.day .ph .fr,html.day .ph img{background:var(--paper2)}
+html.day .dark{background:#fff!important;color:var(--ink)}html.day #chambers{background:var(--paper2)!important}
+html.day .dark h2,html.day .dark h3{color:var(--ink)}html.day .dark .lead{color:var(--mute)}
+html.day .cc{background:#fff;border-color:var(--line);box-shadow:0 10px 34px rgba(0,0,0,.07)}html.day .cc .ad,html.day .ap2 strong{color:#8a6420}html.day .cc p.d{color:var(--mute)}html.day .ft span{border-color:var(--line);color:var(--ink)}html.day .ap2{color:var(--ink)}
+html.day #experience .cr{border-color:var(--line)}html.day #experience .cr h3{color:var(--ink)}html.day #experience .cd{color:#8a6420}html.day #experience .cr p,html.day #experience .tlh{color:var(--mute)}html.day #experience .ti span{color:var(--ink)}html.day #experience .ti::before{background:#fff}
+html.day #experience .st{border-color:var(--line);background:var(--line)}html.day #experience .st div{background:#fff}html.day #experience .st b{color:var(--navy)}html.day #experience .st span{color:var(--mute)}
+html.day .kv{color:var(--ink)}html.day .kv small{color:var(--mute)}html.day .kv a:hover,html.day .kl,html.day .ki,html.day .hr h4{color:#8a6420}
+html.day .hr{border-color:var(--line);background:#fff}html.day .hr div{color:var(--mute);border-bottom-color:var(--line)}html.day form{border:1px solid var(--line);box-shadow:0 18px 50px rgba(0,0,0,.08)}
+html.day footer{background:var(--paper2);color:var(--mute)}html.day .fn1{color:var(--ink)}html.day footer h4{color:#8a6420}html.day .fg4{border-bottom-color:var(--line)}html.day footer a:hover{color:#8a6420}
